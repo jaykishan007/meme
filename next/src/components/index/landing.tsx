@@ -75,13 +75,13 @@ const Landing = (props: LandingProps) => {
         />
 
         <div className="flex w-full flex-row items-center justify-center gap-3">
-          <Button
+          {/* <Button
             ping
             onClick={() => setShowToolsDialog(true)}
             className="h-full bg-gradient-to-t from-slate-9 to-slate-12 hover:shadow-depth-3"
           >
             <FaCog />
-          </Button>
+          </Button> */}
           <Button
             onClick={props.handlePlay}
             className="border-0 bg-gradient-to-t from-[#02FCF1] to-[#A02BFE] subpixel-antialiased saturate-[75%] hover:saturate-100"

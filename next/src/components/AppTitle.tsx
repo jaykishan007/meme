@@ -12,10 +12,10 @@ const AppTitle = () => {
             textShadow: "0px 5px 5px rgba(0, 0, 0, 0.1)",
           }}
         >
-          AgentGPT
+          AI TOM
         </span>
       </div>
-      <div className="mt-3 text-center font-mono text-[0.7em] font-bold text-white">
+      {/* <div className="mt-3 text-center font-mono text-[0.7em] font-bold text-white">
         <div>
           <BannerBadge
             className="md:hidden"
@@ -34,7 +34,7 @@ const AppTitle = () => {
         >
           <BannerBadge>Interested in automating businesses with AI Agents? Apply here</BannerBadge>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

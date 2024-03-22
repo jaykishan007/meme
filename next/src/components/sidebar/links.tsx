@@ -23,12 +23,12 @@ export const PAGE_LINKS: LinkMetadata[] = [
     href: "/",
     icon: FaHouse,
   },
-  {
-    name: "Help",
-    href: "https://docs.reworkd.ai/",
-    icon: FaQuestion,
-    className: "group-hover:text-red-500",
-  },
+  // {
+  //   name: "Help",
+  //   href: "https://docs.reworkd.ai/",
+  //   icon: FaQuestion,
+  //   className: "group-hover:text-red-500",
+  // },
   {
     name: "Templates",
     href: "/templates",
