@@ -42,7 +42,7 @@ const SignIn = ({ providers }: { providers: Provider }) => {
                 alt="Reworkd AI"
               /> */}
               <h1 className="bg-gradient-to-t from-white via-neutral-300 to-neutral-500 bg-clip-text text-center text-3xl font-bold leading-[1.1em] tracking-[-0.64px] text-transparent md:text-5xl">
-                AiTOM
+                AI TOM
               </h1>
             </div>
           </FadeIn>
