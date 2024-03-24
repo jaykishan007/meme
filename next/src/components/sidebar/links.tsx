@@ -44,24 +44,24 @@ export const PAGE_LINKS: LinkMetadata[] = [
 ];
 
 export const SOCIAL_LINKS: LinkMetadata[] = [
-  {
-    name: "Github",
-    href: "https://github.com/reworkd/AgentGPT",
-    icon: FaGithub,
-  },
+  // {
+  //   name: "Github",
+  //   href: "https://github.com/reworkd/AgentGPT",
+  //   icon: FaGithub,
+  // },
   {
     name: "Twitter",
-    href: "https://twitter.com/ReworkdAI",
+    href: "https://twitter.com/aitomco",
     icon: FaXTwitter,
   },
-  {
-    name: "Discord",
-    href: "https://discord.gg/gcmNyAAFfV",
-    icon: FaDiscord,
-  },
-  {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/company/reworkd/",
-    icon: FaLinkedin,
-  },
+  // {
+  //   name: "Discord",
+  //   href: "https://discord.gg/gcmNyAAFfV",
+  //   icon: FaDiscord,
+  // },
+  // {
+  //   name: "LinkedIn",
+  //   href: "https://www.linkedin.com/company/reworkd/",
+  //   icon: FaLinkedin,
+  // },
 ];

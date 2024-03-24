@@ -35,14 +35,14 @@ const SignIn = ({ providers }: { providers: Provider }) => {
             className="flex flex-col items-center justify-center gap-6 text-white invert"
           >
             <div className="flex flex-col items-center justify-center gap-16">
-              <Image
+              {/* <Image
                 src="/logos/dark-default-gradient.svg"
                 width="150"
                 height="150"
                 alt="Reworkd AI"
-              />
+              /> */}
               <h1 className="bg-gradient-to-t from-white via-neutral-300 to-neutral-500 bg-clip-text text-center text-3xl font-bold leading-[1.1em] tracking-[-0.64px] text-transparent md:text-5xl">
-                Reworkd
+                AiTOM
               </h1>
             </div>
           </FadeIn>

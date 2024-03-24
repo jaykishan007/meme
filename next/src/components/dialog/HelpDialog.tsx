@@ -44,19 +44,12 @@ export default function HelpDialog() {
     >
       <div>
         <p>
-          AgentGPT is the next generation of Google search. Ask any question and watch as an AI
-          Agent gives you the perfect answer after aggregating relevant sources from across the
+          AiTOM is the next generation of Google search. Ask any question and watch as an AI
+          TOM gives you the perfect answer after aggregating relevant sources from across the
           internet.
         </p>
         <br />
-        <p className="mt-2 text-center font-bold">{t("FOLLOW_THE_JOURNEY", { ns: "help" })}</p>
         <div className="mt-4 flex w-full items-center justify-center gap-5">
-          <div
-            className="cursor-pointer rounded-full bg-slate-6 p-3 hover:bg-slate-8"
-            onClick={() => window.open("https://discord.gg/jdSBAnmdnY", "_blank")}
-          >
-            <FaDiscord size={30} />
-          </div>
           <div
             className="cursor-pointer rounded-full bg-slate-6 p-3 hover:bg-slate-8"
             onClick={() =>
@@ -67,12 +60,6 @@ export default function HelpDialog() {
             }
           >
             <FaXTwitter size={30} />
-          </div>
-          <div
-            className="cursor-pointer rounded-full bg-slate-6 p-3 hover:bg-slate-8"
-            onClick={() => window.open("https://github.com/reworkd/AgentGPT", "_blank")}
-          >
-            <FaGithub size={30} />
           </div>
         </div>
       </div>

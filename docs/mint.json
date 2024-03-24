@@ -16,7 +16,6 @@
     }
   },
 
-
   "topbarCtaButton": {
     "type": "github",
     "url": "https://github.com/reworkd/AgentGPT"
@@ -24,9 +23,9 @@
 
   "anchors": [
     {
-      "name":"AgentGPT",
-      "icon":"user-ninja",
-      "url":"https://reworkd.ai/"
+      "name": "AgentGPT",
+      "icon": "user-ninja",
+      "url": "https://reworkd.ai/"
     },
     {
       "name": "GitHub",
@@ -47,11 +46,22 @@
     },
     {
       "group": "Development",
-      "pages": ["development/setup", "development/prompts", "development/memory", "development/translations",  "development/auth"]
+      "pages": [
+        "development/setup",
+        "development/prompts",
+        "development/memory",
+        "development/translations",
+        "development/auth"
+      ]
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/roadmap", "essentials/FAQ", "essentials/usecases", "essentials/contributing"]
+      "pages": [
+        "essentials/roadmap",
+        "essentials/FAQ",
+        "essentials/usecases",
+        "essentials/contributing"
+      ]
     },
     {
       "group": "Other",
@@ -60,10 +70,10 @@
   ],
 
   "footerSocials": {
-    "github": "https://github.com/reworkd/AgentGPT",
-    "discord": "https://discord.gg/qNWFxxRJNh",
-    "twitter": "https://twitter.com/ReworkdAI",
-    "linkedin": "https://www.linkedin.com/company/reworkd/"
+    // "github": "https://github.com/reworkd/AgentGPT",
+    // "discord": "https://discord.gg/qNWFxxRJNh",
+    "twitter": "https://twitter.com/aitomco"
+    // "linkedin": "https://www.linkedin.com/company/reworkd/"
   },
 
   "backgroundImage": "/background.png"
